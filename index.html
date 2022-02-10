@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<title>Mí Galería Web</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/jpg" href="img/logo.png">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="img/rodrigo3.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Galeria</b></h4>
+    <p class="w3-text-grey">Fotos tomadas desde un celular.</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Inicio</a> 
+    <a href="#habilidades" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>Habilidades Tecnicas</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>Contacto</a>
+  </div>
+  <div class="w3-panel w3-xxlarge">
+    <a href="https://www.facebook.com/rodrigo.romano.524381"> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>   
+    <a href="https://www.instagram.com/rodri_oficial001?r=nametag"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/rodrigo-romano-4a52a7195"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+      <img src="img/logo.png"  class="w3-right" alt="logo" width="10%">
+      <h1><b>Mi Galería de Fotografía</b></h1>
+     <div class="w3-section w3-bottombar w3-padding-16">
+       <span class="w3-margin-right">Filtro:</span> 
+       <a href="index.html" class="w3-button w3-black">Todos</a>
+        <a href="paginas/indexfav.html" class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Favoritos</a>
+        <a href="paginas/indexplantas.html" class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Plantas</a>
+        <a href="paginas/indexpesca.html" class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Pesca</a>
+     </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    
+    <div class="w3-third w3-container">
+       <img src="img/galeria/peces.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+       <div class="w3-container w3-white">
+         <p><b>Pez Dorado y Blanco</b></p>
+         <p>El pez dorado y blanco tambien conocido como tres colas, carpa dorada, es la versión domestica de la carpa de rio china, una especie de pez de agua dulce de la familia Cyprinidae.</p>
+       </div>
+      </div>
+      
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/galeria/fuente concep.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Fuente de Aguas Danzantes</b></p>
+        <p>La Nueva Plaza Mitre de Concepción renovada con una hermosa fuente grande, nueva luz led y variedades de arboles y flores.</p>
+      </div>
+    </div>
+  
+    <div class="w3-third w3-container">
+        <img src="img/galeria/palmera2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Syagrus Romanzoffiana</b></p>
+          <p>La Palmera pindó, es una especie de la familia de las palmeras. Es nativa del sur de Brasil, Paraguay, Uruguay, y el Litoral Argentino.</p>
+        </div>
+    </div>
+  
+  </div>
+  
+  <div class="w3-container">
+    <img src="img/galeria/cielo4.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+    <div class="w3-container w3-white">
+      <p class="w3-center"><b>Tarde Soleada</b></p>
+    </div>
+  </div>
+  <br>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/galeria/planta amarilla.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Oxalis Corniculata</b></p>
+           <p>Oxalis Corniculata, la acedera, tambien llamada acederita o chulco. Es una Planta herbácea de apariencia delicada, de bajo crecimiento de la familia Oxalideceae.</p>
+        </div>
+    </div>
+      
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="img/galeria/hoja en la calle.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Hoja Seca</b></p>
+          <p>Foto sacada en modo retrato a una hoja seca en un dia soleado de otoño.</p>
+      </div>
+    </div>
+          
+    <div class="w3-third w3-container">
+      <img src="img/galeria/planta rosa4.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Oxalis Latifolia</b></p>
+        <p>Es una especie de fanerógama perteneciente a la familia Oxalidaceae conocida por el nombre común de jardin de acedera rosada.</p>
+      </div>
+    </div>
+      
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="index.html" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="paginas/index2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="paginas/index3.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="paginas/index4.html" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="paginas/index2.html" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+    
+  <h4  id="habilidades">Habilidades Técnicas</h4>
+    <!-- Progress bars / Skills -->
+    <p>Fotografía</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-black w3-padding w3-center" style="width:60%">60%</div>
+    </div>
+    <p>Desarrollo Web</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-black w3-padding w3-center" style="width:81%">81%</div>
+    </div>
+    <p>Photoshop</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-black w3-padding w3-center" style="width:75%">75%</div>
+    </div>
+    <hr>
+    
+
+
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contactame</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>roodrigoo343@gmail.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Concepción, Tucumán, Arg</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>+54 3865343521</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+   
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>Sobre Mí</h3>
+      <p>Estudiante en Tecnico en Computacion y Redes, Diseñador Web Principiante. Decidí hacer esta pagina para practicar un poco. Soy un chico que está siempre en constante formacion para crecer tanto a nivel profesional como personal.</p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>Publicaciones del Blog</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="img/celular.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Fotografías</span><br>
+          <span>Camara del Celular</span>
+          <span>Fotos Sacadas en Macro, Angular, 48MP y Modo Retrato. </span>
+        </li>
+        <li class="w3-padding-16">
+          <span>Capturadas en viajes, otras en el centro o alrededores de mi ciudad y otras en mi casa aburrido. </span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>Etiquetas Populares</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Paisajes</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Argentina</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Concepción</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Plantas</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Tormenta</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Tucumán</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Flores</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Insecto</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ciudad</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Pesca</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Animales</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Fuente de Agua</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Celular</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Cielo</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Powered by Romano, Ezequiel Rodrigo WEB ©2021</div>
+
+<!-- End page content -->
+</div>
+
+<script src="js/main.js"> </script>
+
+</body>
+</html>
